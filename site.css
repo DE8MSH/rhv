@@ -1,0 +1,18 @@
+body,div tr,td,table {
+	font-size:23px;
+	font-family: Verdana, 'Bitstream Vera', sans-serif;
+	font-weight:bold;
+	margin: 0;
+	padding: 0;
+	background-attachment:fixed;
+	color:#F80;
+	cursor:crosshair;
+}
+
+#body.source-image {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+

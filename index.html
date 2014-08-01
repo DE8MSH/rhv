@@ -1,0 +1,48 @@
+<html><head>
+<title>rtl_power heatmap viewer</title>
+<link rel="stylesheet" type="text/css" href="site.css">
+<script language="javascript" type="text/javascript" src="sitescript.js"></script>
+
+</head>
+<body>
+<script type="text/javascript">
+/* Überwachung von Internet Explorer initialisieren */
+if (!window.Weite && document.body && document.body.offsetWidth) {
+  window.onresize = neuAufbau;
+  Weite = Fensterweite();
+  Hoehe = Fensterhoehe();
+}
+
+
+document.write("<div id='Beispiel2' style='position:absolute;top:"+parseInt((Hoehe)-40)+"px; left:"+parseInt((Weite/2)-500)+"px; border:solid 0px #88F; width:1000px;'>");
+</script>
+<center>
+Ham satellite heatmap
+</center>
+</div>
+
+<script type="text/javascript">
+var d = new Date(); // today!
+var x = 5; // go back 5 days!
+d.setDate(d.getDate() - 1);
+//alert(d);
+document.write("<div style:cursor:url(cursor.gif);><img src='20140618.jpg' width ='"+ Weite +"' height='"+ Hoehe +"' onmousemove='image_onmousemove.call(this,event);'/></div>");
+</script>
+
+<script type="text/javascript">
+document.write("<div id='data' style='position:absolute; top:10px; left:"+parseInt((Weite/2)-500)+"px; border:solid 0px #88F; width:1000px;'><center>...</br>...");
+</script>
+</div>
+<script type="text/javascript">
+document.write("<div id='sonde' style='position:absolute; top:35px; left:"+parseInt((Weite/2)-500)+"px; border:solid 0px #88F; width:1000px;' >");
+</script>
+</div>
+<!-- <script type="text/javascript">
+document.write("<div style='position:absolute; top:"+parseInt((Hoehe)-180)+"px; left:20px; cursor:url(cursor.gif);';><img src='20140618.jpg'></div>");
+</script> -->
+<!--
+<script type="text/javascript">
+document.write("<div style='position:absolute; top:0px; left:0px;'><img src='line.png' height='100%'></div>");
+</script>
+-->
+</body></html>
