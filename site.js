@@ -1,4 +1,4 @@
-<script>
+
   function getAbsoluteOffset(htmlelement) {
       var offset={x:htmlelement.offsetLeft,y:htmlelement.offsetTop};
       while(htmlelement=htmlelement.offsetParent)
@@ -33,7 +33,6 @@ function addMinutes(time, offset){
 	var timeSince24 = (hours * 60) + parseInt(minutes);
 	// Addieren des uebergebenen Offsets
         timeSince24 = timeSince24 + parseInt(roundOffset);
-
 	// Ueberlaufbehandlung
 	if(timeSince24 < 0)
 		timeSince24 = timeSince24 + 1440;
@@ -85,4 +84,3 @@ if (!window.Weite && window.innerWidth) {
   Hoehe = Fensterhoehe();
 }
 
-</script>
