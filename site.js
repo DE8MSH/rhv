@@ -50,7 +50,11 @@ function addMinutes(time, offset){
 	// Ausgabe des formatierten Ergebnisses
 	return resHours + ":" + resMinutes;
 }
-    
+
+///////////////////////////////////////////////////////
+/// This functions where taken from SELFHTML reference
+/// http://de.selfhtml.org/javascript/beispiele/fensterueberwachen.htm
+///////////////////////////////////////////////////////    
 
 function Fensterweite () {
   if (window.innerWidth) {
@@ -83,4 +87,6 @@ if (!window.Weite && window.innerWidth) {
   Weite = Fensterweite();
   Hoehe = Fensterhoehe();
 }
+///////////////////////////////////////////////////////
+
 
