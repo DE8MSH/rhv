@@ -1,3 +1,4 @@
+<script>
   function getAbsoluteOffset(htmlelement) {
       var offset={x:htmlelement.offsetLeft,y:htmlelement.offsetTop};
       while(htmlelement=htmlelement.offsetParent)
@@ -84,3 +85,4 @@ if (!window.Weite && window.innerWidth) {
   Hoehe = Fensterhoehe();
 }
 
+</script>
