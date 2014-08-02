@@ -9,7 +9,7 @@ With this small toolchain your're able to visualize the frequency and time of rt
 
 ![Clone](http://www.qth.at/de8msh/git/clone.png "Clone repository")
 
-* Cd into directory. Start brower with homepage.
+* CD into directory. Start brower with index.html.
 
 ![Start](http://www.qth.at/de8msh/git/start.png "Start browser")
 
