@@ -5,7 +5,10 @@
 With this small toolchain your're able to visualize the frequency and time of rtl_power heatmaps within a windows of a browser.
 
 ### Steps
-...
+* Clone repository
+
+![Clone](http://www.qth.at/de8msh/git/clone.png "Clone repository")
+
 
 ###  Todo
 * Update code
