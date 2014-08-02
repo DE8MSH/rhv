@@ -1,6 +1,7 @@
 ///////////////////////////////////////////////////////
-/// This functions where taken from SELFHTML reference
+/// These functions where taken from SELFHTML reference
 /// http://de.selfhtml.org/javascript/beispiele/fensterueberwachen.htm
+/// It reloads page after resizing browser window
 ///////////////////////////////////////////////////////    
 
 function Fensterweite () {
