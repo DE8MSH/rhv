@@ -7,4 +7,9 @@ With this small toolchain your're able to visualize the frequency and time of rt
 ### Steps
 ...
 
-
+###  Todo
+* Update code
+* Include json list for naming signals
+* Port to latest html / javascript techniques
+* Read out picture size to calculate correct x values (fixed values yet, what about y?)
+* ...
