@@ -1,3 +1,3 @@
-rhv - rtl_power heatmap viewer
+# rtl_power heatmap viewer
+## A proof of concept by DE8MSH
 
-A html / javascript proof of concept (poc)
