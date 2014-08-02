@@ -9,6 +9,15 @@ With this small toolchain your're able to visualize the frequency and time of rt
 
 ![Clone](http://www.qth.at/de8msh/git/clone.png "Clone repository")
 
+* Cd into directory. Start brower with homepage.
+
+![Start](http://www.qth.at/de8msh/git/start.png "Start browser")
+
+* Result
+
+![Result](http://www.qth.at/de8msh/git/result.png "Result")
+
+
 
 ###  Todo
 * Update code
